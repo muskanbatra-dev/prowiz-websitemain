@@ -54,19 +54,7 @@ const Info = styled.div`
   }
 `;
 
-const Button = styled.button`
-  padding: 15px;
-  background-color: darkblue;
-  color: white;
-  border-radius: 10px;
-  font-weight: bold;
-  border: none;
-  letter-spacing: 2px;
-  cursor: pointer;
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 20px;
-  }
-`;
+
 
 const Contact = styled.div`
   display: flex;
@@ -103,7 +91,7 @@ const Intro = () => {
           We measure employee engagement with real-time data ( 24*7), Attrition Management, Flight Risk Analysis & provide HR Automation services to business. 
         </Desc>
         <Info>
-          <Button>START A PROJECT</Button>
+          
           <Contact>
             <Phone>Call Us (012) 345 - 6789</Phone>
             <ContactText>For any question or concern</ContactText>

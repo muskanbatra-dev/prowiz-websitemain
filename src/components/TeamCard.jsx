@@ -22,7 +22,7 @@ width:100vh;
   }
 `;
 
-const PriceContainer = styled.div`
+const TeamContainer = styled.div`
 
   display: flex;
   align-items: center;
@@ -57,7 +57,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   margin: 30px 0;
   @media only screen and (max-width: 60px) {
-    margin: 10px;
+    
     font-size: 1;
     text-align: center;
   }
@@ -74,20 +74,19 @@ const Button = styled.button`
   cursor: pointer;
   @media only screen and (max-width: 480px) {
     font-size: 12px;
-    padding: 5px;
     
   }
 `;
 
 
-const PriceCard = ({ price, type , lista, listb , listc, listd }) => {
+const TeamCard = ({ team, type , lista, listb , listc, listd }) => {
   return (
     <Container>
-      <PriceContainer>
+      <TeamContainer>
         
-        <Price>{price}</Price>
+        <Team>{team}</Team>
         
-      </PriceContainer>
+      </TeamContainer>
       <Type>{type} </Type>
       <List>
         <ListItem>{lista}</ListItem>
@@ -101,4 +100,4 @@ const PriceCard = ({ price, type , lista, listb , listc, listd }) => {
   );
 };
 
-export default PriceCard;
+export default TeamCard;

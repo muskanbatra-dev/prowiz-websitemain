@@ -54,17 +54,6 @@ const Desc = styled.p`
   margin-top: 30px;
 `;
 
-const Button = styled.button`
-  width: 150px;
-  border: none;
-  padding: 15px 20px;
-  background-color: darkblue;
-  color: white;
-  font-size: 20px;
-  border-radius: 20px;
-  margin-top: 20px;
-  cursor: pointer;
-`;
 
 const Feature = () => {
   return (
@@ -87,7 +76,7 @@ const Feature = () => {
          and facilitating the implementation of the same through effective tools and techniques.
         </Desc>
         <br/>
-        <Button>Learn More</Button>
+        
       </Right>
       <AnimatedShapes/>
     </Container>

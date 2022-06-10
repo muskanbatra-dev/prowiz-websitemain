@@ -41,15 +41,6 @@ const MenuItem = styled.li`
   color: gray;
 `;
 
-const Button = styled.button`
-  border: 2px solid white;
-  padding: 10px 15px;
-  background-color: darkblue;
-  color: white;
-  font-weight: bold;
-  border-radius: 10px;
-  cursor: pointer;
-`;
 
 const Navbar = () => {
   const service = useRef(null);
@@ -75,7 +66,7 @@ const Navbar = () => {
             <MenuItem>Contact us</MenuItem>
           </Menu>
         </Left>
-        <Button>JOIN TODAY</Button>
+        
       </Wrapper>
     </Container>
   );
