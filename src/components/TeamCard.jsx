@@ -28,7 +28,7 @@ const TeamContainer = styled.div`
   align-items: center;
 `;
 
-const Price = styled.span`
+const Team = styled.span`
   font-weight: bold;
   font-size: 20px;
   text-align: center;

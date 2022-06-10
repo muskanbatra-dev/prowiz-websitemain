@@ -5,7 +5,7 @@ import Feature from "./components/Feature";
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-import Price from "./components/Price";
+import Team from "./components/Team";
 import How from "./components/How";
 
 const Container = styled.div`
@@ -41,7 +41,7 @@ const ServiceShape = styled.div`
   
 `;
 
-const PriceShape = styled.div`
+const TeamShape = styled.div`
   ${Shape}
   clip-path: polygon(33% 0, 100% 0%, 100% 100%, 67% 100%);
   
@@ -78,8 +78,8 @@ const App = () => {
         {!smallScreen && <ServiceShape />}
       </Container>
       <Container>
-        <Price onClick={() => scrollToSection(ourteam)}/>
-        <PriceShape />
+        <Team onClick={() => scrollToSection(ourteam)}/>
+        <TeamShape />
       </Container>
       <Container>
         <Contact onClick={() => scrollToSection(contact)}/>
