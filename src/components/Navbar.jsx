@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { useRef } from "react";
-
 
 const Container = styled.div`
   height: 50px;
@@ -43,27 +41,17 @@ const MenuItem = styled.li`
 
 
 const Navbar = () => {
-  const service = useRef(null);
-  const ourteam = useRef(null);
-  const contact = useRef(null);
-
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offsetTop,
-      behavior: "smooth",
-    });
-  };
   return (
     <Container>
       <Wrapper>
         <Left>
           <Logo>Prowiz AI</Logo>
           <Menu>
-            <MenuItem Click={() => scrollToSection(service)}>Home</MenuItem>
-            <MenuItem>About us</MenuItem>
+            <MenuItem>Home</MenuItem>
+            <MenuItem>About Us</MenuItem>
             <MenuItem>Services</MenuItem>
             <MenuItem>Team</MenuItem>
-            <MenuItem>Contact us</MenuItem>
+            <MenuItem>Contact</MenuItem>
           </Menu>
         </Left>
         
@@ -73,3 +61,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
