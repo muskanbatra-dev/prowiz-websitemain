@@ -55,7 +55,7 @@ const List = styled.ul`
 `;
 
 const ListItem = styled.li`
-  margin: 30px 0;
+  margin: 5px 0;
   @media only screen and (max-width: 60px) {
     
     font-size: 1;
@@ -79,7 +79,7 @@ const Button = styled.button`
 `;
 
 
-const TeamCard = ({ team, type , lista, listb , listc, listd }) => {
+const TeamCard = ({ team, type , list,listb,listc,listd}) => {
   return (
     <Container>
       <TeamContainer>
@@ -89,10 +89,11 @@ const TeamCard = ({ team, type , lista, listb , listc, listd }) => {
       </TeamContainer>
       <Type>{type} </Type>
       <List>
-        <ListItem>{lista}</ListItem>
+        <ListItem>{list}</ListItem>
         <ListItem>{listb}</ListItem>
         <ListItem>{listc}</ListItem>
         <ListItem>{listd}</ListItem>
+        
         
       </List>
       <Button>Contact</Button>
