@@ -42,10 +42,10 @@ const Footer = () => {
     <Container>
       <Wrapper>
         <List>
-          <ListItem>Guide</ListItem>
-          <ListItem>Support</ListItem>
-          <ListItem>API</ListItem>
-          <ListItem>Community</ListItem>
+          <ListItem></ListItem>
+          <ListItem></ListItem>
+          <ListItem></ListItem>
+          <ListItem></ListItem>
         </List>
         <Copyright>Prowiz ai Ⓒ</Copyright>
       </Wrapper>

@@ -132,6 +132,9 @@ const How = () => {
             <MiniCard texta="HR Automation"/>
             <MiniCard textb="Leave Management" />
             <MiniCard textc="Employee wellness"/>
+            <MiniCard texta="HR Automation"/>
+            <MiniCard textb="Leave Management" />
+            
           </CardContainer>
           <Button onClick={() => setOpen(true)}>
             <Icon src={Play} />
